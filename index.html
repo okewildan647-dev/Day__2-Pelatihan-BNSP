@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>BALADONGKAP</title>
+</head>
+
+<body bac>
+    <div>
+        <div>Task Manager</div>
+        <div>Menu Navigasi</div>
+        <div>Daftar Tugas</div>
+    </div>
+    <header>
+        <h1>Task Manager</h1>
+    </header>
+    <nav aria-label="Navigasi Utama">
+        <a href="#ringkasan" style="text-decoration: none;">Ringkasan</a>
+        <a href="#daftar-tugas" style="text-decoration: none;">Daftar Tugas</a>
+        <a href="#Tambah Tugas" style="text-decoration: none;">Daftar Tugas</a>
+    </nav>
+    <main>
+        <section id="ringkasan">
+            <h2>Ringkasan Tugas</h2>
+            <article>
+                <h3>Tugas 1</h3>
+                <p>Deskripsi singkat untuk day-2</p>
+            </article>
+            <article>
+                <h3>Tugas 2</h3>
+                <p>Deskripsi singkat untuk dugong</p>
+            </article>
+            <article>
+                <h3>Tugas 3</h3>
+                <p>Deskripsi singkat untuk maling ayam </p>
+            </article>
+        </section>
+        <section id="daftar-tugas">
+            <h2>Daftar Tugas</h2>
+            <table border="1" style="font-weight: bold; color: rgb(54, 72, 59);" width="100%">
+                <caption style="color: rgb(144, 0, 255);">Daftar Tugas Harian</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Nomor</th>
+                        <th scope="col">Nama Tugas</th>
+                        <th scope="col">Prioritas</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Membuat Halaman HTML</td>
+                        <td>Tinggi</td>
+                        <td>Belom Selesai</td>
+                        <td><button>edit</button><button>hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mecut AI sampe limit</td>
+                        <td>Luar Nulur</td>
+                        <td>Selesai</td>
+                        <td><button>edit</button><button>hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Perang</td>
+                        <td>Fantasy</td>
+                        <td>Selesai</td>
+                        <td><button>edit</button><button>hapus</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <section id="tambah-tugas">
+            Tambah Tugas
+            <form action="">
+                <p>
+                    <label for="nama-tugas">Nama Tugas:</label>
+                    <input type="text" id="nama-tugas" name="nama-tugas">
+                </p>
+
+                <p>
+                    <label for="prioritas">Prioritas:</label>
+                    <select name="prioritas" id="prioritas">
+                        <option value="tinggi">Tinggi</option>
+                        <option value="sedang">Sedang</option>
+                        <option value="rendah">Rendah</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="status">Status:</label>
+                    <select name="status" id="status">
+                        <option value="belum-selesai">Belum selesai</option>
+                        <option value="sedang-berlansung">Sedang berlansung</option>
+                        <option value="selesai">Selesai</option>
+                    </select>
+                </p>
+                <button type="submit">Tambah Tugas</button>
+            </form>
+        </section>
+        <!-- <table border="1" width="100%" height="100px">
+            <thead>
+                <tr>
+                    <th scope="col" height="10%">Nama Tugas</th>
+                    <th scope="col" height="10%">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Belajar HTML</th>
+                    <th>Selesai</th>
+                </tr>
+                <tr>
+                    <th>Belajar Node</th>
+                    <th>Belom Selesai</th>
+                </tr>
+            </tbody>
+        </table> -->
+    </main>
+
+    <footer>
+        <p style="position:; color: red;">&copy; 2026 Pelatihan BNSP</p>
+    </footer>
+</body>
+
+</html>
